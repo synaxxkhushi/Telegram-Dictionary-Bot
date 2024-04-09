@@ -34,7 +34,7 @@ def dictionary(word):
                 for definition in meaning["definitions"]:
                     details += f"- Definition: `{definition['definition']}`\n"
                     if "example" in definition:
-                        details += f"  Example: `{definition['example']}`\n"
+                        details += f"  Example: `{definition['example']}`"
     
     except:
         details = "No details found for the word."
