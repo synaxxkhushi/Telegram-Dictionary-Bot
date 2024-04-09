@@ -11,23 +11,25 @@ Bot = Client(
     api_hash=os.environ.get("API_HASH")
 )
 
-START_TEXT = """Hello {},
+START_TEXT = """𝐇ᴇʟʟᴏ {},
 
 I am simple Telegram Words Dictionary Bot. \
 I can provide you the meaning of any word."""
 
-HELP_TEXT = """--**More Help**--
+HELP_TEXT = """--**𝐌ᴏʀᴇ 𝐇ᴇʟᴘ**--
 
-- Just send a word to get the meaning of it.
-- I will provide you the meaning of the word.
+⊚ Just send a word to get the meaning of it.
+⊚ I will provide you the meaning of the word.
 
-- You can also use me in groups using /dict command
+⊚ You can also use me in groups using /dict command
   eg:- `/dict Hello`
-- or, Send a word and reply /dict
-- I will provide you the meaning of the word.
+⊚ or, Send a word and reply /dict
+⊚ I will provide you the meaning of the word.
+
+⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @synaxnetwork 🇮🇳❤️
 """
 
-ABOUT_TEXT = """--**About Me**--
+ABOUT_TEXT = """--**𝐀ʙᴏᴜᴛ 𝐌ᴇ**--
 
 - **Bot :** `Dictionary Bot`
 - **Developer :**
