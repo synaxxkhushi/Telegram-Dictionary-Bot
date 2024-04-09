@@ -13,17 +13,20 @@ Bot = Client(
 
 START_TEXT = """𝐇ᴇʟʟᴏ {},
 
-ɪ ᴀᴍ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴡᴏʀᴅs ᴅɪᴄᴛɪᴏɴᴀʀʏ ʙᴏᴛ. \
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴀɴʏ ᴡᴏʀᴅ."""
+⊚ ɪ ᴀᴍ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴡᴏʀᴅs ᴅɪᴄᴛɪᴏɴᴀʀʏ ʙᴏᴛ.
+⊚ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴀɴʏ ᴡᴏʀᴅ."""
 
 HELP_TEXT = """--**𝐌ᴏʀᴇ 𝐇ᴇʟᴘ**--
 
 ⊚ ᴊᴜsᴛ sᴇɴᴅ ᴀ ᴡᴏʀᴅ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ɪᴛ.
-⊚ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴛʜᴇ ᴡᴏʀᴅ.
-⊚ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴍᴇ ɪɴ ɢʀᴏᴜᴘs ᴜsɪɴɢ /dict ᴄᴏᴍᴍᴀɴᴅ
-     ᴇɢ:- /dict ʜᴇʟʟᴏ
+⊚ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴛʜᴇ 
+   ᴡᴏʀᴅ.
+⊚ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴍᴇ ɪɴ ɢʀᴏᴜᴘs ᴜsɪɴɢ
+   /dict ᴄᴏᴍᴍᴀɴᴅ
+    ᴇɢ:- /dict ʜᴇʟʟᴏ
 ⊚ ᴏʀ , sᴇɴᴅ ᴀ ᴡᴏʀᴅ ᴀɴᴅ ʀᴇᴘʟʏ/dict
-⊚ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴛʜᴇ ᴡᴏʀᴅ.
+⊚ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴛʜᴇ
+   ᴡᴏʀᴅ.
 
 ⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @synaxnetwork 🇮🇳❤️
 """
@@ -40,12 +43,12 @@ ABOUT_TEXT = """--**𝐀ʙᴏᴜᴛ 𝐌ᴇ**--
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Feedback', url='https://telegram.me/FayasNoushad')
+            InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ʜᴇʀᴇ 🇮🇳', url='https://telegram.me/synaxnetwork')
         ],
         [
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴇʟᴘ 🌹', callback_data='help'),
+            InlineKeyboardButton('☣️ ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('🍃 ᴄʟᴏsᴇ', callback_data='close')
         ]
     ]
 )
@@ -53,9 +56,9 @@ START_BUTTONS = InlineKeyboardMarkup(
 HELP_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴏᴍᴇ 🧸', callback_data='home'),
+            InlineKeyboardButton('☣️ ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('🍃 ᴄʟᴏsᴇ', callback_data='close')
         ]
     ]
 )
@@ -63,9 +66,9 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 ABOUT_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴏᴍᴇ 🧸', callback_data='home'),
+            InlineKeyboardButton('ʜᴇʟᴘ 🌹', callback_data='help'),
+            InlineKeyboardButton('🍃 ᴄʟᴏsᴇ', callback_data='close')
         ]
     ]
 )
