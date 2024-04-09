@@ -13,31 +13,29 @@ Bot = Client(
 
 START_TEXT = """𝐇ᴇʟʟᴏ {},
 
-I am simple Telegram Words Dictionary Bot. \
-I can provide you the meaning of any word."""
+ɪ ᴀᴍ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴡᴏʀᴅs ᴅɪᴄᴛɪᴏɴᴀʀʏ ʙᴏᴛ. \
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴀɴʏ ᴡᴏʀᴅ."""
 
 HELP_TEXT = """--**𝐌ᴏʀᴇ 𝐇ᴇʟᴘ**--
 
-⊚ Just send a word to get the meaning of it.
-⊚ I will provide you the meaning of the word.
-
-⊚ You can also use me in groups using /dict command
-  eg:- `/dict Hello`
-⊚ or, Send a word and reply /dict
-⊚ I will provide you the meaning of the word.
+⊚ ᴊᴜsᴛ sᴇɴᴅ ᴀ ᴡᴏʀᴅ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ɪᴛ.
+⊚ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴛʜᴇ ᴡᴏʀᴅ.
+⊚ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴍᴇ ɪɴ ɢʀᴏᴜᴘs ᴜsɪɴɢ /dict ᴄᴏᴍᴍᴀɴᴅ
+     ᴇɢ:- /dict ʜᴇʟʟᴏ
+⊚ ᴏʀ , sᴇɴᴅ ᴀ ᴡᴏʀᴅ ᴀɴᴅ ʀᴇᴘʟʏ/dict
+⊚ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴇᴀɴɪɴɢ ᴏғ ᴛʜᴇ ᴡᴏʀᴅ.
 
 ⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @synaxnetwork 🇮🇳❤️
 """
 
 ABOUT_TEXT = """--**𝐀ʙᴏᴜᴛ 𝐌ᴇ**--
 
-- **Bot :** `Dictionary Bot`
-- **Developer :**
-  • [GitHub](https://github.com/FayasNoushad)
-  • [Telegram](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Telegram-Dictionary-Bot)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)"""
+⊚ 𝗕𝗼𝘁 : ᴅɪᴄᴛɪᴏɴᴀʀʏ ʙᴏᴛ 🇮🇳
+⊚ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :
+  • [ ɢɪᴛʜᴜʙ ](https://github.com/SynaxBots)  • [ ᴛᴇʟᴇɢʀᴀᴍ ](https://telegram.me/sanatanisynax)
+⊚ 𝗦𝗼𝘂𝗿𝗰𝗲 : [ ᴄʟɪᴄᴋ ᴋʀ ᴍᴄ 🐰](https://t.me/synaxnetwork)
+⊚ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : [ ᴘʏᴛʜᴏɴ3 ](https://python.org)
+⊚ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆 : [ ᴘʏʀᴏɢʀᴀᴍ ](https://pyrogram.org)"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
